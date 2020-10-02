@@ -1,0 +1,7 @@
+.content-cards {
+    background-color: #ccc;
+    width: 100px;
+    height: 120px;
+    border: 1px solid #eee;
+    border-radius: 5px; 
+}

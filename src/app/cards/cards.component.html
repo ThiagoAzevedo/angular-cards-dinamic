@@ -1,0 +1,23 @@
+<section class="content-cards" id="{{idElement}}">
+    <div class="actions">
+        <button type="submit" (click)="onSwitchCardOne()">C 1</button>
+        <button type="submit" (click)="onSwitchCardTwo()">C 2</button>
+    </div>
+
+    <div class="body">
+        <app-cardone *ngIf="cardSelected == cardOne || cardSelected == null">
+            <div body>
+                {{ indexElement }} -
+                One: {{ cardSelected == cardOne }} -
+                Two: {{ cardSelected == cardTwo }}
+            </div>
+        </app-cardone>
+        <app-cardtwo *ngIf="cardSelected == cardTwo">
+            <div body>
+                {{ indexElement }} -
+                One: {{ cardSelected == cardOne }} -
+                Two: {{ cardSelected == cardTwo }}
+            </div>
+        </app-cardtwo>
+    </div>
+</section>
