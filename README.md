@@ -1,3 +1,7 @@
+# Projeto Cards
+
+Este projeto é um exemplo de um card que é construído de forma dinâmica e no qual cada card permite a troca de componentes dentro do mesmo.
+
 # Directivesapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
